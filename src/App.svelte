@@ -91,11 +91,11 @@
   }
 
   const navItems: NavItem[] = [
-    { id: 'home', pt: 'Inicio', en: 'Home' },
+    { id: 'home', pt: 'Início', en: 'Home' },
     { id: 'projects', pt: 'Projetos', en: 'Projects' },
     { id: 'skills', pt: 'Habilidades', en: 'Skills' },
     { id: 'details', pt: 'Realiza', en: 'Realiza' },
-    { id: 'experience', pt: 'Experiencia', en: 'Experience' },
+    { id: 'experience', pt: 'Experiência', en: 'Experience' },
     { id: 'contact', pt: 'Contato', en: 'Contact' },
   ]
 
@@ -103,33 +103,33 @@
     pt: {
       metaTitle: 'Joao Pedro | Portfolio',
       metaDescription:
-        'Portfolio de Joao Pedro Oliveira, desenvolvedor frontend junior com experiencia em Svelte, TypeScript, JavaScript, Go e PostgreSQL.',
-      available: 'Disponivel para oportunidades frontend',
-      role: 'Desenvolvedor frontend junior',
-      heroTitle: 'Ola, eu sou Joao Pedro',
+        'Portfólio de João Pedro, desenvolvedor full stack júnior com experiência em Svelte, TypeScript, JavaScript, Go, PostgreSQL e automações.',
+      available: 'Disponível para oportunidades full stack',
+      role: 'Desenvolvedor full stack júnior',
+      heroTitle: 'Olá, eu sou Joao Pedro',
       heroDescription:
-        'Desenvolvedor frontend focado em construir interfaces claras, produtos digitais consistentes e experiencias mais elegantes para web.',
+        'Desenvolvedor full stack com foco em interfaces bem resolvidas, integrações, automações e produtos digitais que precisam funcionar de ponta a ponta.',
       viewProjects: 'Veja meus projetos',
       contactMe: 'Contate-me',
       featuredEyebrow: 'Resultados do mundo real',
-      featuredTitle: 'Projetos em destaque',
+      featuredTitle: 'Projetos e produtos em destaque',
       featuredDescription:
-        'Aqui estao alguns projetos que representam bem meu momento atual: interfaces comerciais, produtos reais e experiencias digitais que ajudam negocio e usuario ao mesmo tempo.',
+        'Aqui estão alguns trabalhos que representam bem meu momento atual: interfaces comerciais, sistemas reais, automações e produtos digitais que ajudam negócio e usuário ao mesmo tempo.',
       skillsEyebrow: 'Lista de tecnologias',
       skillsTitle: 'Habilidades',
-      skillsDescription: 'Aqui estao algumas das tecnologias com as quais trabalho.',
+      skillsDescription: 'Aqui estão algumas das tecnologias e frentes com as quais trabalho no dia a dia.',
       detailsEyebrow: 'Faculdade Realiza',
-      detailsTitle: 'Experiencia pratica em produtos reais do setor educacional.',
+      detailsTitle: 'Experiência prática em sistemas, operação e produto no setor educacional.',
       detailsDescription:
-        'Meu trabalho atual me colocou em contato direto com sistemas que precisam funcionar no dia a dia. Isso me deu base pratica em manutencao, evolucao de interface e colaboracao com o time.',
-      experienceEyebrow: 'Experiencia',
-      experienceTitle: 'Uma trajetoria curta, mas construida em ambiente profissional real.',
+        'Meu trabalho atual me colocou em contato direto com sistemas que precisam funcionar no dia a dia. Isso me deu base prática em manutenção, evolução de interface, integrações, automações e colaboração com o time.',
+      experienceEyebrow: 'Experiência',
+      experienceTitle: 'Uma trajetória em construção, já com base prática em ambiente profissional real.',
       experienceDescription:
-        'Estou no inicio da carreira, mas minha base ja vem de contexto de produto, time e entrega de valor para usuarios reais.',
+        'Ainda estou no início da carreira, mas minha base já vem de contexto de produto, time, manutenção de sistemas, entregas reais e suporte a necessidades concretas do negócio.',
       contactEyebrow: 'Contato',
       contactTitle: 'Vamos construir algo bom.',
       contactDescription:
-        'Atualmente estou disponivel para trabalhar. Se voce tem um projeto em mente, adoraria ouvir de voce. Email: jrodriguessilvaoliveira081@gmail.com',
+        'Atualmente estou disponível para trabalhar. Se você tem um projeto, produto ou operação que precisa de alguém com visão de front-end, back-end e automação, adoraria conversar. Email: jrodriguessilvaoliveira081@gmail.com',
       talkButton: 'Contato',
       contactPill: 'Contato',
       themeLabel: 'Tema',
@@ -143,25 +143,25 @@
       sendLabel: 'Enviar',
       sendingLabel: 'Enviando...',
       successLabel: 'Mensagem enviada com sucesso. Vou te responder em breve.',
-      errorLabel: 'Nao foi possivel enviar agora. Tente novamente em instantes.',
+      errorLabel: 'Não foi possível enviar agora. Tente novamente em instantes.',
       footerCopy: '© 2026 Joao Pedro',
       projectLink: 'Ver projeto',
       projectSource: 'GitHub',
       metrics: [
-        '1+ ano de experiencia profissional',
-        'Svelte como stack principal de front-end',
+        '1+ ano de experiência profissional',
+        'Svelte como base forte no front-end',
         'Go e PostgreSQL como base complementar',
-        'Produtos reais em ambiente educacional',
+        'Produtos reais, integrações e automações',
       ],
       projects: [
         {
           title: 'tsartec',
           description:
-            'A tsartec representa bem o tipo de trabalho que eu gosto de construir: landing pages com identidade forte, hierarquia visual clara e foco em experiencia de navegacao.',
+            'A tsartec representa bem o tipo de trabalho que eu gosto de construir: presença digital com identidade forte, hierarquia visual clara e foco em conversão.',
           tags: ['Svelte', 'UI', 'Landing Page', 'Responsive'],
           bullets: [
-            'Hero com mensagem mais direta e orientada a conversao',
-            'Hierarquia visual pensada para leitura rapida',
+            'Hero com mensagem mais direta e orientada à conversão',
+            'Hierarquia visual pensada para leitura rápida',
             'Interface escura com acento de cor e linguagem mais moderna',
           ],
           link: 'https://tsartec.com/',
@@ -171,7 +171,7 @@
         {
           title: 'GenIA',
           description:
-            'Participacao na construcao de uma plataforma voltada a agentes de IA para marketing, com pagina comercial, fluxo de acesso e uma interface alinhada a produto digital moderno.',
+            'Participação na construção de uma plataforma voltada a agentes de IA para marketing, combinando página comercial, fluxo autenticado e experiência de produto alinhada a operação real.',
           tags: ['Projeto real', 'IA', 'Marketing', 'Login'],
           link: 'https://www.genia.marketing/lp',
           visual: 'genia',
@@ -179,15 +179,15 @@
         {
           title: 'Produtos internos na Faculdade Realiza',
           description:
-            'Participacao na manutencao e evolucao de sistemas internos, CMS, LMS, CRM e ferramentas digitais voltadas ao setor educacional.',
+            'Participação na manutenção e evolução de sistemas internos, CMS, LMS, CRM, banco de dados e ferramentas digitais voltadas ao setor educacional.',
           tags: ['Profissional', 'CMS', 'LMS', 'CRM'],
           visual: 'realiza',
         },
         {
-          title: 'Base frontend em evolucao continua',
+          title: 'Base técnica em evolução contínua',
           description:
-            'Estudos e implementacoes praticas com Svelte, TypeScript, JavaScript, HTML, CSS, Git e GitHub para fortalecer minha entrega como desenvolvedor frontend.',
-          tags: ['TypeScript', 'JavaScript', 'Svelte'],
+            'Estudos e implementações práticas com Svelte, TypeScript, JavaScript, Go, PostgreSQL, APIs, Git e automações para fortalecer minha entrega como desenvolvedor full stack.',
+          tags: ['TypeScript', 'JavaScript', 'Go', 'APIs'],
           visual: 'study',
         },
       ],
@@ -198,77 +198,77 @@
         },
         {
           title: 'Backend e dados',
-          items: ['Go', 'PostgreSQL', 'Integracao com APIs', 'Banco de dados', 'REST API'],
+          items: ['Go', 'PostgreSQL', 'Integração com APIs', 'Banco de dados', 'REST API'],
         },
         {
-          title: 'Produto e contexto',
-          items: ['CMS', 'LMS', 'CRM', 'Ferramentas internas', 'Boas praticas', 'Git', 'GitHub'],
+          title: 'Produto e operação',
+          items: ['CMS', 'LMS', 'CRM', 'Automações', 'Ferramentas internas', 'Boas práticas', 'Git', 'GitHub'],
         },
       ],
       detailItems: [
         {
           title: 'Sistemas internos em operacao',
           description:
-            'Atuacao em plataformas e ferramentas utilizadas no dia a dia da instituicao, com foco em manutencao, evolucao e estabilidade.',
+            'Atuação em plataformas e ferramentas utilizadas no dia a dia da instituição, com foco em manutenção, evolução, estabilidade e continuidade operacional.',
         },
         {
-          title: 'Contexto educacional e multiplos produtos',
+          title: 'Contexto educacional e múltiplos produtos',
           description:
-            'Contato com CMS, LMS, CRM e solucoes de produtividade, o que fortaleceu minha leitura de produto e de necessidades reais de usuario.',
+            'Contato com CMS, LMS, CRM e soluções de produtividade, o que fortaleceu minha leitura de produto e de necessidades reais de usuário.',
         },
         {
           title: 'Colaboracao com o time de tecnologia',
           description:
-            'Trabalho proximo de um ambiente de entrega real, aprendendo com demandas concretas, ajustes continuos e resolucao de problemas tecnicos.',
+            'Trabalho próximo de um ambiente de entrega real, aprendendo com demandas concretas, ajustes contínuos, integrações e resolução de problemas técnicos.',
         },
       ],
       experienceItems: [
         {
-          role: 'Desenvolvedor Junior',
+          role: 'Desenvolvedor Full Stack Júnior',
           company: 'Faculdade Realiza',
           period: 'dez/2024 - atual',
           description:
-            'Atuacao no time de tecnologia com foco em desenvolvimento web, manutencao de sistemas internos e evolucao de solucoes digitais para o setor educacional.',
+            'Atuação no time de tecnologia com foco em desenvolvimento web, manutenção de sistemas internos, integrações, automações e evolução de soluções digitais para o setor educacional.',
         },
         {
-          role: 'Formacao complementar',
+          role: 'Formação complementar',
           company: 'Rocketseat - Discover',
           period: 'nov/2024',
           description:
-            'Fundamentos da programacao web com HTML, CSS, JavaScript, Git e GitHub.',
+            'Fundamentos da programação web com HTML, CSS, JavaScript, Git e GitHub.',
         },
       ],
     },
     en: {
       metaTitle: 'Joao Pedro | Portfolio',
       metaDescription:
-        'Portfolio of Joao Pedro Oliveira, a junior frontend developer working with Svelte, TypeScript, JavaScript, Go and PostgreSQL.',
-      available: 'Available for frontend opportunities',
-      role: 'Junior frontend developer',
+        'Portfolio of Joao Pedro, a junior full stack developer working with Svelte, TypeScript, JavaScript, Go, PostgreSQL and automation workflows.',
+      available: 'Available for full stack opportunities',
+      role: 'Junior full stack developer',
       heroTitle: 'Hi, I am Joao Pedro',
       heroDescription:
-        'Frontend developer focused on building clear interfaces, consistent digital products and more refined web experiences.',
+        'Full stack developer focused on clear interfaces, reliable integrations, automation flows and digital products that need to work end to end.',
       viewProjects: 'See my work',
       contactMe: 'Contact me',
       featuredEyebrow: 'Real world results',
-      featuredTitle: 'Featured projects',
+      featuredTitle: 'Featured projects and products',
       featuredDescription:
-        'These are a few projects that represent where I am today: commercial interfaces, real products and digital experiences designed to help both business and users.',
+        'These are a few projects that represent where I am today: commercial interfaces, real systems, automation-oriented solutions and digital products designed to help both business and users.',
       skillsEyebrow: 'Technology list',
       skillsTitle: 'Skills',
-      skillsDescription: 'Here are some of the technologies I work with.',
+      skillsDescription: 'Here are some of the technologies and areas I work with.',
       detailsEyebrow: 'Faculdade Realiza',
-      detailsTitle: 'Hands-on experience with real educational products.',
+      detailsTitle: 'Hands-on experience with systems, operations and real educational products.',
       detailsDescription:
-        'My current work put me in direct contact with systems that need to work every day. That gave me practical experience with maintenance, interface evolution and team collaboration.',
+        'My current work put me in direct contact with systems that need to work every day. That gave me practical experience with maintenance, interface evolution, integrations, automation and team collaboration.',
       experienceEyebrow: 'Experience',
-      experienceTitle: 'A short path, but already built in a real professional environment.',
+      experienceTitle: 'An early path, already shaped inside a real professional environment.',
       experienceDescription:
-        'I am still early in my career, but my foundation already comes from real products, teamwork and solving practical business needs.',
+        'I am still early in my career, but my foundation already comes from real products, teamwork, business operations and practical problem solving.',
       contactEyebrow: 'Contact',
       contactTitle: 'Let us build something strong.',
       contactDescription:
-        'I am currently available for work. If you have a project in mind, I would love to hear from you. Email: jrodriguessilvaoliveira081@gmail.com',
+        'I am currently available for work. If you have a project, product or operation that needs someone with frontend, backend and automation thinking, I would love to hear from you. Email: jrodriguessilvaoliveira081@gmail.com',
       talkButton: 'Contact',
       contactPill: 'Contact',
       themeLabel: 'Theme',
@@ -288,9 +288,9 @@
       projectSource: 'GitHub',
       metrics: [
         '1+ year of professional experience',
-        'Svelte as my main frontend stack',
+        'Strong frontend foundation with Svelte',
         'Go and PostgreSQL as a complementary base',
-        'Real products in the education sector',
+        'Real products, integrations and automation',
       ],
       projects: [
         {
@@ -310,7 +310,7 @@
         {
           title: 'GenIA',
           description:
-            'Participation in building a platform focused on AI agents for marketing, with a commercial landing page, login flow and an interface aligned with modern digital products.',
+            'Participation in building a platform focused on AI agents for marketing, combining a commercial landing page, authenticated flow and a product experience aligned with real operations.',
           tags: ['Real project', 'AI', 'Marketing', 'Login'],
           link: 'https://www.genia.marketing/lp',
           visual: 'genia',
@@ -318,15 +318,15 @@
         {
           title: 'Internal products at Faculdade Realiza',
           description:
-            'Participation in the maintenance and evolution of internal systems, CMS, LMS, CRM and digital tools for the education sector.',
+            'Participation in the maintenance and evolution of internal systems, CMS, LMS, CRM, databases and digital tools for the education sector.',
           tags: ['Professional', 'CMS', 'LMS', 'CRM'],
           visual: 'realiza',
         },
         {
-          title: 'Frontend foundation in constant evolution',
+          title: 'Technical foundation in constant evolution',
           description:
-            'Hands-on studies and implementations with Svelte, TypeScript, JavaScript, HTML, CSS, Git and GitHub to strengthen my frontend delivery.',
-          tags: ['TypeScript', 'JavaScript', 'Svelte'],
+            'Hands-on studies and implementations with Svelte, TypeScript, JavaScript, Go, PostgreSQL, APIs, Git and automation workflows to strengthen my full stack delivery.',
+          tags: ['TypeScript', 'JavaScript', 'Go', 'APIs'],
           visual: 'study',
         },
       ],
@@ -340,15 +340,15 @@
           items: ['Go', 'PostgreSQL', 'API integration', 'Databases', 'REST API'],
         },
         {
-          title: 'Product context',
-          items: ['CMS', 'LMS', 'CRM', 'Internal tools', 'Best practices', 'Git', 'GitHub'],
+          title: 'Product and operations',
+          items: ['CMS', 'LMS', 'CRM', 'Automation', 'Internal tools', 'Best practices', 'Git', 'GitHub'],
         },
       ],
       detailItems: [
         {
           title: 'Internal systems in production',
           description:
-            'Work on platforms and tools used daily by the institution, with a focus on maintenance, improvement and stability.',
+            'Work on platforms and tools used daily by the institution, with a focus on maintenance, improvement, stability and operational continuity.',
         },
         {
           title: 'Educational context and multiple products',
@@ -358,16 +358,16 @@
         {
           title: 'Collaboration inside the technology team',
           description:
-            'Work close to a real delivery environment, learning from concrete demands, iterative adjustments and technical problem solving.',
+            'Work close to a real delivery environment, learning from concrete demands, iterative adjustments, integrations and technical problem solving.',
         },
       ],
       experienceItems: [
         {
-          role: 'Junior Developer',
+          role: 'Junior Full Stack Developer',
           company: 'Faculdade Realiza',
           period: 'Dec 2024 - Present',
           description:
-            'Working within the technology team with a focus on web development, internal systems maintenance and the evolution of digital solutions for education.',
+            'Working within the technology team with a focus on web development, internal systems maintenance, integrations, automation and the evolution of digital solutions for education.',
         },
         {
           role: 'Complementary education',
@@ -384,7 +384,10 @@
   let theme: Theme = 'dark'
   let activeSection = 'home'
   let isScrolled = false
+  let isMobileNav = false
+  let isLocaleMenuOpen = false
   let navElement: HTMLElement | null = null
+  let localeMenuElement: HTMLDivElement | null = null
   let heroSvgHost: HTMLDivElement | null = null
   let indicatorStyle = ''
   const navLinks = new Map<string, HTMLAnchorElement>()
@@ -410,12 +413,45 @@
     locale = locale === 'pt' ? 'en' : 'pt'
   }
 
+  const localeOptions: Array<{ key: Locale; label: string; flag: string }> = [
+    { key: 'pt', label: 'Português', flag: '🇧🇷' },
+    { key: 'en', label: 'English', flag: '🇺🇸' },
+  ]
+
   const current = () => content[locale]
+  const currentLocaleOption = () => localeOptions.find((option) => option.key === locale) ?? localeOptions[0]
   const projectAlt = (title: string) => `${title} preview`
   const flatSkills = () => Array.from(new Set(current().skillGroups.flatMap((group) => group.items)))
+  const syncViewportState = () => {
+    isMobileNav = window.innerWidth <= 859
+  }
+
+  const toggleLocaleMenu = () => {
+    isLocaleMenuOpen = !isLocaleMenuOpen
+  }
+
+  const selectLocale = (nextLocale: Locale) => {
+    locale = nextLocale
+    isLocaleMenuOpen = false
+  }
+
   const handleNavClick = (id: string) => {
     activeSection = id
-    void updateIndicator()
+    if (!isMobileNav) {
+      void updateIndicator()
+    }
+
+    const section = document.getElementById(id)
+    if (!section) return
+
+    const topbarHeight = document.querySelector<HTMLElement>('.topbar')?.offsetHeight ?? 0
+    const extraOffset = window.innerWidth <= 560 ? 18 : 24
+    const top = section.getBoundingClientRect().top + window.scrollY - topbarHeight - extraOffset
+
+    window.scrollTo({
+      top: Math.max(0, top),
+      behavior: 'smooth',
+    })
   }
 
   const navItemRef = (node: HTMLAnchorElement, id: string) => {
@@ -430,6 +466,11 @@
   }
 
   const updateIndicator = async () => {
+    if (isMobileNav) {
+      indicatorStyle = ''
+      return
+    }
+
     await tick()
     const activeLink = navLinks.get(activeSection)
     if (!activeLink || !navElement) return
@@ -522,29 +563,13 @@
   }
 
   onMount(() => {
+    syncViewportState()
     const storedTheme = localStorage.getItem('portfolio-theme')
     applyTheme(storedTheme === 'light' ? 'light' : 'dark')
 
     const sections = navItems
       .map((item) => document.getElementById(item.id))
       .filter((section): section is HTMLElement => Boolean(section))
-
-    const sectionObserver = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)
-
-        if (visible[0]?.target.id) {
-          activeSection = visible[0].target.id
-          void updateIndicator()
-        }
-      },
-      {
-        threshold: [0.14, 0.28, 0.42, 0.56],
-        rootMargin: '-12% 0px -52% 0px',
-      },
-    )
 
     const revealObserver = new IntersectionObserver(
       (entries) => {
@@ -559,26 +584,72 @@
       },
     )
 
-    sections.forEach((section) => sectionObserver.observe(section))
     document
       .querySelectorAll<HTMLElement>('.reveal, .reveal-stagger')
       .forEach((node) => revealObserver.observe(node))
 
+    let ticking = false
+
     const onScroll = () => {
       isScrolled = window.scrollY > 18
+
+      if (ticking) return
+      ticking = true
+
+      window.requestAnimationFrame(() => {
+        const topbarHeight = document.querySelector<HTMLElement>('.topbar')?.offsetHeight ?? 0
+        const probeLine = window.scrollY + topbarHeight + (window.innerWidth <= 859 ? 24 : 40)
+
+        let nextActive = sections[0]?.id ?? 'home'
+
+        sections.forEach((section) => {
+          if (section.offsetTop <= probeLine) {
+            nextActive = section.id
+          }
+        })
+
+        if (nextActive !== activeSection) {
+          activeSection = nextActive
+          void updateIndicator()
+        }
+
+        ticking = false
+      })
+    }
+
+    const onResize = () => {
+      syncViewportState()
+      isLocaleMenuOpen = false
+      void updateIndicator()
+      onScroll()
+    }
+
+    const onPointerDown = (event: PointerEvent) => {
+      if (!isLocaleMenuOpen || !localeMenuElement) return
+      if (localeMenuElement.contains(event.target as Node)) return
+      isLocaleMenuOpen = false
+    }
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        isLocaleMenuOpen = false
+      }
     }
 
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
-    window.addEventListener('resize', updateIndicator)
+    window.addEventListener('resize', onResize)
+    window.addEventListener('pointerdown', onPointerDown)
+    window.addEventListener('keydown', onKeyDown)
     void updateIndicator()
     initHeroGradients()
 
     return () => {
-      sectionObserver.disconnect()
       revealObserver.disconnect()
       window.removeEventListener('scroll', onScroll)
-      window.removeEventListener('resize', updateIndicator)
+      window.removeEventListener('resize', onResize)
+      window.removeEventListener('pointerdown', onPointerDown)
+      window.removeEventListener('keydown', onKeyDown)
     }
   })
 </script>
@@ -590,18 +661,22 @@
 
 <div class="page">
   <header class:scrolled={isScrolled} class="topbar">
-    <a class="brand" href="#home" aria-label="Voltar ao inicio">
-      <span class="brand-mark">JP</span>
-    </a>
+    {#if !isMobileNav}
+      <a class="brand" href="#home" aria-label="Voltar ao início">
+        <span class="brand-mark">JP</span>
+      </a>
+    {/if}
 
-    <nav class="nav" aria-label="Navegacao principal" bind:this={navElement}>
-      <span class="nav-indicator" style={indicatorStyle}></span>
+    <nav class="nav" aria-label="Navegação principal" bind:this={navElement}>
+      {#if !isMobileNav}
+        <span class="nav-indicator" style={indicatorStyle}></span>
+      {/if}
       {#each navItems as item}
         <a
           href={`#${item.id}`}
           class:active={activeSection === item.id}
           use:navItemRef={item.id}
-          on:click={() => handleNavClick(item.id)}
+          on:click|preventDefault={() => handleNavClick(item.id)}
         >
           {locale === 'pt' ? item.pt : item.en}
         </a>
@@ -609,13 +684,43 @@
     </nav>
 
     <div class="toolbar">
-      <button class="toolbar-button" type="button" on:click={toggleLocale} aria-label={current().languageLabel}>
-        {locale === 'pt' ? 'PT' : 'EN'}
-      </button>
+      <div class="locale-picker" bind:this={localeMenuElement}>
+        <button
+          class="toolbar-button locale-trigger"
+          type="button"
+          aria-label={current().languageLabel}
+          aria-haspopup="menu"
+          aria-expanded={isLocaleMenuOpen}
+          on:click={toggleLocaleMenu}
+        >
+          <span class="locale-trigger-inner">
+            <span class="locale-flag" aria-hidden="true">{currentLocaleOption().flag}</span>
+            <span class="locale-chevron" aria-hidden="true">⌄</span>
+          </span>
+        </button>
+
+        {#if isLocaleMenuOpen}
+          <div class="locale-menu" role="menu" aria-label={current().languageLabel}>
+            {#each localeOptions as option}
+              <button
+                class:active={locale === option.key}
+                class="locale-option"
+                type="button"
+                role="menuitemradio"
+                aria-checked={locale === option.key}
+                on:click={() => selectLocale(option.key)}
+              >
+                <span aria-hidden="true">{option.flag}</span>
+                <span>{option.label}</span>
+              </button>
+            {/each}
+          </div>
+        {/if}
+      </div>
+
       <button class="toolbar-button" type="button" on:click={toggleTheme} aria-label={current().themeLabel}>
         {theme === 'dark' ? '☀' : '☾'}
       </button>
-      <a class="theme-pill" href="#contact">{current().contactPill}</a>
     </div>
   </header>
 
@@ -633,6 +738,7 @@
           </div>
           <div class="hero-badge-card">{current().available}</div>
         </div>
+        <p class="hero-kicker">{current().role}</p>
         <h1>{current().heroTitle}</h1>
         <p class="hero-description">{current().heroDescription}</p>
 
