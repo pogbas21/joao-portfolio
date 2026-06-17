@@ -27,7 +27,7 @@
     bullets?: string[]
     link?: string
     source?: string
-    visual?: 'tsartec' | 'genia' | 'realiza' | 'study'
+    visual?: 'tsartec' | 'genia' | 'realiza' | 'study' | 'kirvo'
   }
 
   type ExperienceItem = {
@@ -154,6 +154,19 @@
         'Produtos reais, integrações e automações',
       ],
       projects: [
+        {
+          title: 'Kirvo',
+          description:
+            'Plataforma SaaS de IA para times, construída do zero com um amigo. Conecta Slack, Linear, Gmail e GitHub numa interface de chat que entende o contexto do trabalho e age pelo time.',
+          tags: ['React', 'TypeScript', 'Hono', 'IA', 'SaaS'],
+          bullets: [
+            'Design system próprio com tokens OKLCH e componentes acessíveis',
+            'Backend em Hono com autenticação, banco de dados e API tipada end-to-end',
+            'Turborepo com landing page, app autenticado e status page isolados',
+          ],
+          link: 'https://kirvo.app',
+          visual: 'kirvo',
+        },
         {
           title: 'tsartec',
           description:
@@ -293,6 +306,19 @@
         'Real products, integrations and automation',
       ],
       projects: [
+        {
+          title: 'Kirvo',
+          description:
+            'AI-powered SaaS platform for teams, built from scratch with a friend. Connects Slack, Linear, Gmail and GitHub into a chat interface that understands your team\'s work context and acts for you.',
+          tags: ['React', 'TypeScript', 'Hono', 'AI', 'SaaS'],
+          bullets: [
+            'Custom design system with OKLCH tokens and accessible components',
+            'Hono backend with authentication, database and typed end-to-end API',
+            'Turborepo with isolated landing page, authenticated app and status page',
+          ],
+          link: 'https://kirvo.app',
+          visual: 'kirvo',
+        },
         {
           title: 'tsartec',
           description:
@@ -790,7 +816,25 @@
             </div>
 
             <div class={`project-visual ${project.visual ?? 'study'}`}>
-              {#if project.visual === 'tsartec'}
+              {#if project.visual === 'kirvo'}
+                <div class="kirvo-panel">
+                  <div class="kirvo-panel-header">
+                    <div class="kirvo-dot"></div>
+                    <span class="kirvo-name">Kirvo</span>
+                    <span class="kirvo-badge">IA</span>
+                  </div>
+                  <div class="kirvo-chat">
+                    <div class="kirvo-msg kirvo-msg-system">O que vamos fazer hoje?</div>
+                    <div class="kirvo-msg kirvo-msg-user">Resumir as issues abertas no Linear</div>
+                    <div class="kirvo-msg kirvo-msg-system">Encontrei 4 issues para você revisar&nbsp;→</div>
+                    <div class="kirvo-integrations">
+                      {#each ['Slack', 'Linear', 'Gmail', 'GitHub'] as tool}
+                        <span class="kirvo-chip">{tool}</span>
+                      {/each}
+                    </div>
+                  </div>
+                </div>
+              {:else if project.visual === 'tsartec'}
                 <img src={tsartecShot} alt={projectAlt(project.title)} loading="lazy" decoding="async" />
               {:else if project.visual === 'genia'}
                 <img src={geniaShot} alt={projectAlt(project.title)} loading="lazy" decoding="async" />

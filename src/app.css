@@ -817,6 +817,101 @@ h3 {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
+/* ── Kirvo visual panel ─────────────────────────────────── */
+.kirvo-panel {
+  display: block;
+  width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
+  margin: 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--surface-border);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  background: linear-gradient(160deg, rgba(8, 12, 28, 0.98) 0%, rgba(6, 9, 22, 0.98) 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.kirvo-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.kirvo-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #5673ff, #7e59ff);
+  flex-shrink: 0;
+}
+
+.kirvo-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #f0f2ff;
+  letter-spacing: -0.01em;
+}
+
+.kirvo-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid rgba(86, 115, 255, 0.22);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  margin-left: auto;
+}
+
+.kirvo-chat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.kirvo-msg {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 0.6rem 0.85rem;
+  border-radius: 12px;
+  max-width: 88%;
+}
+
+.kirvo-msg-system {
+  background: rgba(86, 115, 255, 0.1);
+  border: 1px solid rgba(86, 115, 255, 0.18);
+  color: #c8d2ff;
+  align-self: flex-start;
+}
+
+.kirvo-msg-user {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--surface-border);
+  color: #dde4f5;
+  align-self: flex-end;
+}
+
+.kirvo-integrations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+.kirvo-chip {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--surface-border);
+  color: var(--muted);
+}
+
 .link-row a,
 .contact-card a {
   font-weight: 700;
