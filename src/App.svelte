@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte'
+  import kirvoShot from './assets/kirvo-shot.png'
   import tsartecShot from './assets/tsartec-shot.png'
   import geniaShot from './assets/genia-shot.jpeg'
   import realizaShot from './assets/realiza-shot.png'
@@ -817,23 +818,7 @@
 
             <div class={`project-visual ${project.visual ?? 'study'}`}>
               {#if project.visual === 'kirvo'}
-                <div class="kirvo-panel">
-                  <div class="kirvo-panel-header">
-                    <div class="kirvo-dot"></div>
-                    <span class="kirvo-name">Kirvo</span>
-                    <span class="kirvo-badge">IA</span>
-                  </div>
-                  <div class="kirvo-chat">
-                    <div class="kirvo-msg kirvo-msg-system">O que vamos fazer hoje?</div>
-                    <div class="kirvo-msg kirvo-msg-user">Resumir as issues abertas no Linear</div>
-                    <div class="kirvo-msg kirvo-msg-system">Encontrei 4 issues para você revisar&nbsp;→</div>
-                    <div class="kirvo-integrations">
-                      {#each ['Slack', 'Linear', 'Gmail', 'GitHub'] as tool}
-                        <span class="kirvo-chip">{tool}</span>
-                      {/each}
-                    </div>
-                  </div>
-                </div>
+                <img src={kirvoShot} alt={projectAlt(project.title)} loading="lazy" decoding="async" />
               {:else if project.visual === 'tsartec'}
                 <img src={tsartecShot} alt={projectAlt(project.title)} loading="lazy" decoding="async" />
               {:else if project.visual === 'genia'}
